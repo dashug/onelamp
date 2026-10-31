@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Onelamp · Focus &amp; Block Apps</title>
+<link rel="icon" href="../icon-192.png">
+<link rel="apple-touch-icon" href="../icon-192.png">
+<link rel="stylesheet" href="../style.css">
+
+</head>
+<body>
+<header class="bar">
+  <a class="brand" href="../en/"><img src="../icon-192.png" alt="" width="28" height="28">Onelamp</a>
+  <a class="lang" href="../" data-lang="zh">中文</a>
+</header>
+<main>
+<section class="hero">
+  <img src="../icon-512.png" alt="" width="128" height="128">
+  <h1>Onelamp</h1>
+  <p class="tagline">Focus & Block Apps</p>
+  <p>Pick the apps and websites that distract you, start a focus session, and they stay locked until time is up. Your data stays on your iPhone.</p>
+  <a class="button" href="https://apps.apple.com/app/id6829219759">Download on the App Store</a>
+</section>
+<section>
+  <h2>Contact us</h2>
+  <p>Questions, problems or suggestions, or anything about your data: email us and we will reply within 15 business days.</p>
+  <p><span class="todo">【待填 SUPPORT_EMAIL】</span></p>
+  <p class="muted">If you can, include your iPhone model, iOS version and the Onelamp version (in the app under Settings › About).</p>
+</section>
+<section>
+  <h2>FAQ</h2>
+  <details><summary>Apps are not being blocked?</summary><p>Open Onelamp and finish the Screen Time authorization in Settings. If you ever turned off Onelamp&#x27;s access under iPhone Settings › Screen Time, authorize it again. The permission is only used to block what you choose.</p></details>
+<details><summary>Pro is missing after a new phone or reinstall?</summary><p>In Onelamp, go to Settings and tap Restore Purchases, signed in with the Apple Account you bought it with.</p></details>
+<details><summary>How do I cancel my subscription?</summary><p>Subscriptions are managed by Apple: open iPhone Settings, tap your name at the top, then Subscriptions, choose Onelamp and cancel. Pro stays active until the end of the current period.</p></details>
+<details><summary>Where is my data stored?</summary><p>Your rules, focus history and settings are stored only on this iPhone. We run no servers and cannot see them. Export or erase them in the app under Settings › Data. See the Privacy Policy.</p></details>
+</section>
+<section>
+  <p><a href="../en/privacy/">Privacy Policy →</a></p>
+</section>
+</main>
+<footer>
+  <a href="../en/">Support</a> · <a href="../en/privacy/">Privacy Policy</a> · <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use</a>
+</footer>
+<script>
+document.querySelectorAll("[data-lang]").forEach(function (a) {
+  a.addEventListener("click", function () { try { localStorage.setItem("lang", a.dataset.lang); } catch (e) {} });
+});
+</script>
+</body>
+</html>
